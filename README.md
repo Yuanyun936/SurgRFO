@@ -214,21 +214,3 @@ Example using Faster R-CNN:
 ``` bash
 python detection/faster_rcnn/train.py --dataset RFOBench --synthetic 2000
 ```
-
-------------------------------------------------------------------------
-
-## Citation
-
-    @inproceedings{wang2026surgrfo,
-      title={SurgRFO: Foundation Model Based Compositional Synthesis of Critical Retained Foreign Objects in Intraoperative Chest X-rays},
-      booktitle={MICCAI},
-      year={2026}
-    }
-
-------------------------------------------------------------------------
-
-## Contact
-
-Yuli Wang\
-Mount Sinai Hospital\
-Email: yuli.wang@mountsinai.org
