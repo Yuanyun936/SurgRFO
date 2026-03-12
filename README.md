@@ -86,11 +86,11 @@ Synthetic X-ray = Background + Local RFO Patch + Poisson Blending
 
 ## Pipeline
 
-1.  Dataset curation and annotation\
-2.  Stage-1 surgical background synthesis\
-3.  Stage-2 local RFO patch generation\
-4.  Conditional Poisson fusion\
-5.  Synthetic dataset creation\
+1.  Dataset curation and annotation
+2.  Stage-1 surgical background synthesis
+3.  Stage-2 local RFO patch generation
+4.  Conditional Poisson fusion
+5.  Synthetic dataset creation
 6.  Downstream RFO detection training
 
 ------------------------------------------------------------------------
