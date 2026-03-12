@@ -1,12 +1,10 @@
 # SurgRFO: Compositional Synthesis of Critical Retained Foreign Objects in Intraoperative Chest X-rays
 
-Official implementation of **SurgRFO**, a two-stage synthesis framework
-for generating realistic intraoperative radiographs with critical
+Official implementation of **SurgRFO**, a two-stage synthesis framework for generating realistic intraoperative radiographs with critical
 retained foreign objects (RFOs).
 
-Paper: *SurgRFO: Foundation Model Based Compositional Synthesis of
-Critical Retained Foreign Objects in Intraoperative Chest X-rays*\
-Conference: MICCAI 2026
+Paper: *SurgRFO: Foundation Model Based Compositional Synthesis of Critical Retained Foreign Objects in Intraoperative Chest X-rays*\
+Conference: Submitted to MICCAI 2026
 
 ------------------------------------------------------------------------
 
