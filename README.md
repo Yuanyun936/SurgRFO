@@ -33,7 +33,7 @@ synthesis even with limited positive cases.
 The project also releases **Intraoperative RFO Bench**, the first
 dataset specifically curated for critical RFO detection.
 
-![annotation](overview.pdf)
+![annotation](overview.png)
 
 ------------------------------------------------------------------------
 
