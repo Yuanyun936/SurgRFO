@@ -44,11 +44,11 @@ dataset specifically curated for critical RFO detection.
 
 RFOBench summary:
 
-  Data                        Count
-  --------------------------- -------
-  Positive RFO cases          144
-  Negative cases              944
-  External evaluation cases   20 (negative 12 + positive 8)
+| Data | Count |
+| --- | ---: |
+| Positive RFO cases | 144 |
+| Negative cases | 944 |
+| External evaluation cases | 20 (negative 12 + positive 8) |
 
 Annotations include:
 
@@ -100,14 +100,14 @@ Synthetic X-ray = Background + Local RFO Patch + Poisson Blending
 Synthetic augmentation improves detection performance across multiple
 architectures.
 
-  Model          Training Setup    mAP@0.3     FNR
-  -------------- ----------------- ----------- -----------
-  Faster R-CNN   Base              0.184       78.8%
-  Faster R-CNN   +2000 synthetic   **0.510**   **33.3%**
-  RetinaNet      Base              0.099       72.7%
-  RetinaNet      +2000 synthetic   **0.564**   **36.3%**
-  YOLOv8         Base              0.000       100%
-  YOLOv8         +1000 synthetic   **0.357**   **60.6%**
+| Model | Training Setup | mAP@0.3 | FNR |
+| --- | --- | ---: | ---: |
+| Faster R-CNN | Base | 0.184 | 78.8% |
+| Faster R-CNN | +2000 synthetic | **0.510** | **33.3%** |
+| RetinaNet | Base | 0.099 | 72.7% |
+| RetinaNet | +2000 synthetic | **0.564** | **36.3%** |
+| YOLOv8 | Base | 0.000 | 100% |
+| YOLOv8 | +1000 synthetic | **0.357** | **60.6%** |
 
 Synthetic data significantly reduces **false negatives**, which is
 critical for patient safety.
@@ -151,7 +151,9 @@ critical for patient safety.
 ## Installation
 
 ```bash
-git clone https://github.com/xxx/SurgRFO.git
+Repository: [link](https://github.com/xxx/SurgRFO.git)
+
+git clone <REPO_URL>
 cd SurgRFO
 ```
 
@@ -171,14 +173,14 @@ pip install -r requirements.txt
 
 - Raw radiographs can be provided and will be publicly released upon acceptance.
 - During the rebuttal period, we provide 3 representative examples here:
-  - https://drive.google.com/drive/folders/1lfbYXzwDbCmD5j9fCV-_yvA6fVX0ZYst?usp=drive_link
+  - [link](https://drive.google.com/drive/folders/1lfbYXzwDbCmD5j9fCV-_yvA6fVX0ZYst?usp=drive_link)
 
 ### Full benchmark + preprocessed dataset
 
 We also release a complete benchmark and dataset (with unified preprocessing applied), containing **both real and synthetic data**:
 
 - Benchmark & dataset link:
-  - https://drive.google.com/drive/folders/1oAWb96hwse92icmYT-8FzDmGGYrQg3RU?usp=sharing
+  - [link](https://drive.google.com/drive/folders/1oAWb96hwse92icmYT-8FzDmGGYrQg3RU?usp=sharing)
 
 The dataset is split as **6:1:3 (train/val/test)** and includes the following layout under the downloaded dataset root:
 
@@ -333,9 +335,9 @@ All detection baselines are under `downstream/` and assume a dataset root with:
 You can directly evaluate with the released pretrained checkpoints:
 
 - Faster R-CNN checkpoint:
-  - https://drive.google.com/file/d/14xTd3Lb8TGlwfIvnXGEujsvx-_yAE7An/view?usp=sharing
+  - [link](https://drive.google.com/file/d/14xTd3Lb8TGlwfIvnXGEujsvx-_yAE7An/view?usp=sharing)
 - RetinaNet checkpoint:
-  - https://drive.google.com/file/d/13WJ_Q-3UojgN3DNNij21OKGjEno-ufFP/view?usp=sharing
+  - [link](https://drive.google.com/file/d/13WJ_Q-3UojgN3DNNij21OKGjEno-ufFP/view?usp=sharing)
 
 After downloading, run:
 
