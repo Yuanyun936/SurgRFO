@@ -172,15 +172,14 @@ pip install -r requirements.txt
 ### Real raw radiographs
 
 - Raw radiographs can be provided and will be publicly released upon acceptance.
-- During the rebuttal period, we provide 3 representative examples here:
-  - [link](https://drive.google.com/drive/folders/1lfbYXzwDbCmD5j9fCV-_yvA6fVX0ZYst?usp=drive_link)
+- During the rebuttal period, we provide 3 representative examples in the repo.
 
 ### Full benchmark + preprocessed dataset
 
 We also release a complete benchmark and dataset (with unified preprocessing applied), containing **both real and synthetic data**:
 
 - Benchmark & dataset link:
-  - [link](https://drive.google.com/drive/folders/1oAWb96hwse92icmYT-8FzDmGGYrQg3RU?usp=sharing)
+  - [link](https://anonymous-hf.up.railway.app/a/uzr6d9bsd0uo/)
 
 The dataset is split as **6:1:3 (train/val/test)** and includes the following layout under the downloaded dataset root:
 
@@ -334,10 +333,7 @@ All detection baselines are under `downstream/` and assume a dataset root with:
 
 You can directly evaluate with the released pretrained checkpoints:
 
-- Faster R-CNN checkpoint:
-  - [link](https://drive.google.com/file/d/14xTd3Lb8TGlwfIvnXGEujsvx-_yAE7An/view?usp=sharing)
-- RetinaNet checkpoint:
-  - [link](https://drive.google.com/file/d/13WJ_Q-3UojgN3DNNij21OKGjEno-ufFP/view?usp=sharing)
+- Faster R-CNN and RetinaNet checkpoints: [link](https://anonymous-hf.up.railway.app/a/uzr6d9bsd0uo/)
 
 After downloading, run:
 
